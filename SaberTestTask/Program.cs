@@ -24,7 +24,7 @@ public static class Program
         {
             Data = "node5"
         };
-
+        
         node1.Next = node2;
         node1.Rand = node4;
 
@@ -52,7 +52,7 @@ public static class Program
         fileStream.Close();
 
         var desListNode = new ListRand();
-        var openedFile = File.Open("List.data", FileMode.Open);
+        var openedFile = File.Open("List.data", FileMode.OpenOrCreate);
         desListNode.Deserialize(openedFile);
         openedFile.Close();
     }
