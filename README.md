@@ -1,11 +1,14 @@
 # SaberTestTask
+Павлов Алексей Олегович  
+Дата выполнения - 28.05.2022  
+Время выполнения - 1.5 часа
 
 ## 1. Реализуйте функции сериализации и десериализации двусвязного списка, заданного следующим образом
 
 ```cs
 class ListNode
     {
- public ListNode Prev;
+        public ListNode Prev;
         public ListNode Next;
         public ListNode Rand; // произвольный элемент внутри списка
         public string Data;
